@@ -1,4 +1,2 @@
 # REQNN
-3D-Rotation-Equivariant Quaternion Neural Networks
-
-Created by Wen Shen, Binbin Zhang, Shikun Huang, Zhihua Wei, and Quanshi Zhang.
+3D-Rotation-Equivariant Quaternion Neural Networks https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650528.pdf
