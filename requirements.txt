@@ -1,0 +1,5 @@
+# pip install -r requirements.txt
+
+torch==1.2.0
+h5py
+sklearn
