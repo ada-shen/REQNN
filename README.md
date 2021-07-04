@@ -2,7 +2,7 @@
 
 ### Introduction
 This repository is an official implementation of 3D-Rotation-Equivariant Quaternion Neural Networks
-([arXiv](https://arxiv.org/abs/1911.09040),[SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_32#citeas)), which has been published at ECCV 2020.
+([arXiv](https://arxiv.org/abs/1911.09040),[SpringerLink](https://link.springer.com/chapter/10.1007/978-3-030-58565-5_32#citeas)) which has been published at ECCV 2020.
 
 Note that, we have found a bug and solved it. Therefore, the experimental results obtained based on this repository are slightly different from that in the paper. However, this did not essentially change our conclusions. New experimental results are as follows.
 
@@ -27,7 +27,9 @@ pip install -r requirements.txt
 
 ### Usage
 
-To train a model to classify point clouds, run the training script:
+To train a model to classify point clouds.
+
+Run the training script:
 
 
 ``` 1024 points
