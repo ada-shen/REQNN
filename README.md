@@ -27,9 +27,7 @@ pip install -r requirements.txt
 
 ### Usage
 
-To train a model to classify point clouds.
-
-Run the training script:
+To train a model to classify point clouds, run the training script:
 
 
 ``` 1024 points
