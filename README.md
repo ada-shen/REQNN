@@ -9,9 +9,9 @@ Note that, we have found a bug and solved it. Therefore, the experimental result
 | Method     |                       | ModelNet40              |             |                 | 3D MNIST              |             |
 | ---------- | --------------------- | -------------------- | ----------- | --------------------- | -------------------- | ----------- |
 |            | Baseline w/o rotation | Baseline w/ rotation | REQNN(ours) |Baseline w/o rotation | Baseline w/ rotation | REQNN(ours) |
-| PointNet++ | 26.50                 | 23.67                | **61.92**   |     51.16            | 35.05                | **69.71**   |
-| DGCNN      | 31.36                 | 28.69                | **83.80**   |     50.64            | 45.64                | **84.50**   |
-| PointConv  |  44.77                | 22.22                | **79.86**   |      52.81            | 46.20                | **83.05**   |
+| PointNet++ | 25.09                 | 29.36                | **62.03**   |     43.27            | 51.88                | **71.15**   |
+| DGCNN      | 31.83                 | 33.48                | **84.58**   |     45.35            | 50.19                | **84.14**   |
+| PointConv  | 24.56                 | 26.41                | **81.93**   |     45.17            | 47.84                | **85.76**   |
 
 
 ### Installation
