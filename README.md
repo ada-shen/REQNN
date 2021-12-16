@@ -6,13 +6,14 @@ This repository is an official implementation of 3D-Rotation-Equivariant Quatern
 
 Note that, we have found a bug and solved it. Therefore, the experimental results obtained based on this repository are slightly different from that in the paper. However, this did not essentially change our conclusions. New experimental results are as follows.
 
-| Method     |                       | ModelNet40              |             |                 | 3D MNIST              |             |
+| Method     |                       | ModelNet40           |             |                       | 3D MNIST             |             |
 | ---------- | --------------------- | -------------------- | ----------- | --------------------- | -------------------- | ----------- |
-|            | Baseline w/o rotation | Baseline w/ rotation | REQNN(ours) |Baseline w/o rotation | Baseline w/ rotation | REQNN(ours) |
-| PointNet++ | 25.09                 | 29.36                | **62.03**   |     43.27            | 51.88                | **71.15**   |
-| DGCNN      | 31.83                 | 33.48                | **84.58**   |     45.35            | 50.19                | **84.14**   |
-| PointConv  | 24.56                 | 26.41                | **81.93**   |     45.17            | 47.84                | **85.76**   |
+|            | Baseline w/o rotation | Baseline w/ rotation | REQNN(ours) | Baseline w/o rotation | Baseline w/ rotation | REQNN(ours) |
+| PointNet++ | 25.87                 | 29.25                | **62.03**   | 44.19                 | 51.48                | **72.01**   |
+| DGCNN      | 32.08                 | 33.78                | **84.57**   | 45.90                 | 50.00                | **84.57**   |
+| PointConv  | 25.01                 | 26.46                | **81.93**   | 45.51                 | 48.08                | **85.71**   |
 
+Besides, we have modified a few writing errors. In the second and third paragraph of the Experiment section, and the caption of Table 4, we have modified all “z-axis rotations” to “y-axis rotations”.
 
 ### Installation
 
